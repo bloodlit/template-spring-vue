@@ -1,0 +1,29 @@
+{
+    "name": "template-spring-vue",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "git@github.com:bloodlit/template-spring-vue.git",
+    "author": "Alexey <bloodlit@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.11.5",
+        "vue": "^2.6.12"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^5.0.0",
+        "vue-loader": "^15.9.3",
+        "vue-style-loader": "^4.1.2",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.1.0",
+        "webpack-cli": "^4.0.0",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
